@@ -14,9 +14,6 @@ const app = express()
 const port = process.env.PORT || 4000;
 
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
 
 function login() {
   // Ketika Username dan Password Benar
