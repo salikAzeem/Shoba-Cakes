@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.badan-utama {
+	overflow: hidden;
+}
+
+header {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	overflow: hidden;
+	color: #823919;
+}
+
+header h2 {
+	margin-left: 50px;
+	font-family: Arial Black;
+	margin-bottom: 12px;
+	color: #823919;
+}
+
+header p {
+	margin-left: 55px;
+	margin-bottom: 12px;
+	color: #823919;
+}
+
+.logo {
+	float: left;
+	width: 12%;
+	margin-right: 20px;
+}
+
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	width: 100vw;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color: #823919;
+	text-align: center;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.navigasi li a:hover {
+	background-color: #e2c59b;
+	transition-duration: 2s;
+}
+
+
+
+.category {
+	margin-bottom: 30px;
+}
+
+.category h2 {
+	text-align: center;
+}
+
+.menu-items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-left: 170px;
+}
+
+.menu-item {
+	width: 25%;
+	/* Ubah lebar sesuai kebutuhan Anda */
+	margin-bottom: 20px;
+
+}
+
+.menu-item img {
+	width: calc(25% - 10px);
+	/* Empat item per baris */
+	margin-bottom: 20px;
+}
+
+.menu-item h3 {
+	margin-top: 10px;
+}
+
+.price {
+	font-weight: bold;
+	color: #333;
+}
+
+.pesan {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	text-align: center;
+	padding: 3px;
+	display: block;
+	overflow: hidden;
+	width: 35%;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #823919;
+}
+
+.pesan :hover {
+	background-color: #e2c59b;
+	transition-duration: 2s;
+	padding: 3px;
+	width: 35%;
+	color: #823919;
+}
+
+
+.rating {
+	font-size: 24px;
+}
+
+.star {
+	color: #ffc107;
+}
+
+
+footer {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	color: #823919;
+	text-align: center;
+	padding: 10px;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	margin: 5px;
+}

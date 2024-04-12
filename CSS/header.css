@@ -1,0 +1,228 @@
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 0;
+}
+
+.badan-utama {
+	overflow: hidden;
+}
+
+header {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	overflow: hidden;
+	color: #823919;
+}
+
+header h2 {
+	margin-left: 50px;
+	font-family: Arial Black;
+	margin-bottom: 12px;
+	color: #823919;
+}
+
+header p {
+	margin-left: 55px;
+	margin-bottom: 12px;
+	color: #823919;
+}
+
+.logo {
+	float: left;
+	width: 15%;
+	margin-right: 25px;
+}
+
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	width: 100vw;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color: #823919;
+	text-align: center;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.navigasi li a:hover {
+	background-color: #e2c59b;
+	transition-duration: 2s;
+}
+
+.konten {
+	height: 80vh;
+	background-image: url(../foto/uas2.JPEG);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: justify;
+	position: relative;
+	display: flex;
+	animation: slideBackground 15s linear infinite;
+}
+
+@keyframes slideBackground {
+	0% {
+		background-image: url(../foto/uas2.JPG);
+	}
+
+	33.33% {
+		background-image: url(../foto/11.JPG);
+	}
+
+	66.66% {
+		background-image: url(../foto/12.JPG);
+	}
+
+	100% {
+		background-image: url(../foto/13.JPG);
+	}
+}
+
+.konten:after {
+	background-color: rgba(0, 0, 0, .4);
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.konten h1 {
+	color: white;
+	margin: 0;
+	font-size: 200%;
+	font-family: Brush Script MT;
+	z-index: 1;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.konten p {
+	color: white;
+	margin: 0;
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: monospace;
+	z-index: 1;
+	text-align: center;
+}
+
+.diskon {
+	max-width: 300px;
+	margin: 20px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+	text-align: center;
+}
+
+.product img {
+	max-width: 70%;
+	height: 120px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.product h2 {
+	color: #333;
+}
+
+.original-price {
+	color: #999;
+	text-decoration: line-through;
+}
+
+.discounted-price {
+	color: #e44d26;
+	font-weight: bold;
+}
+
+.promotion {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	color: #823919;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.promotion h3 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.promotion p {
+	margin-top: 0;
+	text-align: center;
+}
+
+.reviews-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.review {
+	width: 200px;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 8px;
+}
+
+.reviewer-info img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.reviewer-name {
+	font-weight: bold;
+}
+
+.rating {
+	font-size: 24px;
+}
+
+.star {
+	color: #ffc107;
+}
+
+.review-text {
+	margin-top: 10px;
+}
+
+footer {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	color: #823919;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+
+}
+
+footer p {
+	margin: 5px;
+}

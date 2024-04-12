@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SHOBA CAKES ORDER</title>
+	<link rel="stylesheet" href="CSS/pemesanan.css">
+</head>
+
+<body>
+	<div class="badan-utama">
+		<header>
+			<img class="logo" src="foto/logoo.jpg">
+			<h2> SHOBA CAKES </h2>
+			<P> Address : GROUND FLOOR, 36-4-4/18/2, Bowdra Ring Road, Eye Clinic, Kanchara Palem, Visakhapatnam, Visak Visakhapatnam, Andhra Pradesh, 530008</p>
+			<p> Contact : 9381712716 </p>
+			<p> Email : shobacakes7@gmail.com</p>
+		</header>
+		<nav class="navigasi">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="pemesanan.html">Order</a></li>
+			</ul>
+		</nav>
+	</div>
+	<main>
+		<div class="judul">
+			<h2>ORDER FORM</h2>
+		</div>
+		<section class="order-form">
+			<form>
+				<div class="form-row">
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="name" required>
+					</div>
+
+					<div class="form-group">
+						<label for="address">Address:</label>
+						<textarea id="address" name="address" required></textarea>
+					</div>
+
+					<div class="form-group">
+						<label for="contact">contact:</label>
+						<input type="tel" id="contact" name="contact" required>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+					</div>
+				</div>
+
+				<label for="roti">Jenis Roti:</label>
+				<div class="form-row">
+					<p>1.Dry Bread</p>
+					<div class="form-group">
+						<label for="jumlah">Taste:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Bread | 25.00</option>
+							<option value="style2">Brown Bread | 55.00</option>
+							<option value="style3">Puffs | 20.00</option>
+							<option value="style4">Sweet Roll | 15.00</option>
+							<option value="style5">Banana Roll | 20.00</option>
+							<option value="style6">Triangle Cake | 10.00</option>
+							<option value="style7">Dry fruits Cake | 40.00</option>
+							<option value="style8">Tiffin Cake | 30.00</option>
+						</select>
+						<label for="jumlah">Sum:</label>
+						<input type="number" id="sum" name="sum" min="0" required>
+						<label for="harga">Price:</label>
+						<input type="tel" id="price" name="price" required>
+					</div>
+				</div>
+
+				<div class="form-row">
+					<p>2 . Cup Cake</p>
+					<div class="form-group">
+						<label for="jumlah">Taste:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Choklate Cupcake | 25.00</option>
+							<option value="style2">Oreo Cupcake | 30.00</option>
+							<option value="style3">Vanilla Cupcake | 20.00</option>
+							<option value="style4">Hazelnut Cupcake | 35.00</option>
+							<option value="style5">Strawberry Cupcake | 40.00</option>
+							<option value="style6">Lemon Cupcake | 25.00</option>
+							<option value="style7">Blueberry Cupcake | 35.00</option>
+							<option value="style8">Caramel Cupcake | 45.00</option>
+						</select>
+						<label for="jumlah">Sum:</label>
+						<input type="number" id="sum" name="sum" min="0" required>
+						<label for="harga">Price:</label>
+						<input type="tel" id="price" name="price" required>
+					</div>
+				</div>
+
+				<div class="form-row">
+					<p>3.Birthday Cake</p>
+					<div class="form-group">
+						<label for="jumlah">Taste:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Strawberry Cake | 400.00</option>
+							<option value="style2">Green Tea Cake | 350.00</option>
+							<option value="style3">Blueberry Cake | 400.00</option>
+							<option value="style4">Orange Cake | 380.00</option>
+							<option value="style5">Chocolate Drip Cupcake | 370.00</option>
+							<option value="style6">Oreo Cake | 500.00</option>
+							<option value="style7">Choklat Cake | Rp 300.00</option>
+							<option value="style8">Black Forest Cake | 400.00</option>
+						</select>
+						<label for="jumlah">Sum:</label>
+						<input type="number" id="sum" name="sum" min="0" required>
+						<label for="harga">Price:</label>
+						<input type="tel" id="price" name="price" required>
+					</div>
+				</div>
+
+				<div class="form-row">
+					<p>4.Wedding Cake</p>
+					<div class="form-group">
+						<label for="jumlah">Style:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Style 1 | 7000.00</option>
+							<option value="style2">Style 2 | 8500.00</option>
+							<option value="style3">Style 3 | 7500.00</option>
+							<option value="style4">Style 4 | 8000.00</option>
+							<option value="style5">Style 5 | 9000.00</option>
+							<option value="style6">Style 6 | 6500.00</option>
+							<option value="style7">Style 7 | 10000.00</option>
+							<option value="style8">Style 8 | 5000.00</option>
+						</select>
+						<label for="jumlah">Sum:</label>
+						<input type="number" id="sum" name="sum" min="0" required>
+						<label for="harga">Price:</label>
+						<input type="tel" id="price" name="price" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="total">Total:</label>
+					<input type="price" id="total" name="total" required>
+				</div>
+				<div class="form-group">
+					<label for="discount">Discount:</label>
+					<input type="percent" id="discount" name="discount" required>
+				</div>
+				<div class="form-group">
+					<label for="totpay">Total Pay:</label>
+					<input type="price" id="totpay" name="totalpay" required>
+				</div>
+				<div class="form-group">
+					<label for="paymoney">Pay Money:</label>
+					<input type="price" id="paymoney" name="paymoney" required>
+				</div>
+				<div class="form-group">
+					<label for="Return">Return:</label>
+					<input type="price" id="Return" name="Return" required>
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+        <p>Contact : 9381712716  | Follow instagram : https://www.instagram.com/vizag_vantalu?igsh=d3I2emRkb2dsdDE= </p>
+        <p>Follow Youtube : https://youtube.com/@Shoba791?si=PAdAWwDHSQMeGd7b</p>
+        <p>Address: GROUND FLOOR, 36-4-4/18/2, Bowdra Ring Road, Eye Clinic, Kanchara Palem, Visakhapatnam, Visak Visakhapatnam, Andhra Pradesh, 530008</p>
+        <p>&copy; 2024 SHOBA CAKES</p>
+    </footer>
+</body>
+
+</html>

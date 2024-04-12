@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.badan-utama {
+	overflow: hidden;
+}
+
+header {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	overflow: hidden;
+	color: #823919;
+
+}
+
+header h2 {
+	margin-left: 50px;
+	font-family: Arial Black;
+	margin-bottom: 12px;
+	color: #823919;
+}
+
+header p {
+	margin-left: 55px;
+	margin-bottom: 12px;
+}
+
+.logo {
+	float: left;
+	width: 12%;
+	margin-right: 20px;
+}
+
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	width: 100vw;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color: #823919;
+	text-align: center;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.navigasi li a:hover {
+	background-color: #e2c59b;
+	transition-duration: 2s;
+}
+
+.judul h2 {
+	border-bottom: 2px solid #333;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 100vw;
+}
+
+main {
+	max-width: 800px;
+	padding: 20px;
+}
+
+form {
+	align-items: center;
+
+}
+
+.judul h2 {
+	border-bottom: 2px solid #333;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 100vw;
+}
+
+.form-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.form-group {
+	flex: 1;
+}
+
+.order-form {
+	float: right;
+	width: 100%;
+}
+
+.order-form h2 {
+	border-bottom: 2px solid #333;
+	padding-bottom: 10px;
+}
+
+
+
+label {
+	margin-top: 10px;
+	display: block;
+	margin-bottom: 8px;
+}
+
+input,
+textarea,
+select {
+	width: 100%;
+	padding: 6px;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+button {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+
+footer {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	color: #823919;
+	text-align: center;
+	padding: 10px;
+
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	margin: 5px;
+}

@@ -1,0 +1,179 @@
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.badan-utama {
+	overflow: hidden;
+}
+
+header {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	overflow: hidden;
+	color: #823919;
+}
+
+header h2 {
+	margin-left: 50px;
+	font-family: Arial Black;
+	margin-bottom: 12px;
+	color: #823919;
+}
+
+header p {
+	margin-left: 55px;
+	margin-bottom: 12px;
+	color: #823919;
+}
+
+.logo {
+	float: left;
+	width: 12%;
+	margin-right: 20px;
+}
+
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	width: 100vw;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color: #823919;
+	text-align: center;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.navigasi li a:hover {
+	background-color: #e2c59b;
+	transition-duration: 2s;
+}
+
+
+.container {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container img {
+	max-width: 100%;
+	height: auto;
+}
+
+.text-container {
+	display: flex;
+	max-height: 100vw;
+}
+
+.left-section,
+.right-section {
+	flex: 1;
+	padding: 20px;
+
+}
+
+
+
+.text {
+	margin-left: 20px;
+	font-size: 15px;
+	font-family: monospace;
+	z-index: 1;
+	text-align: left;
+
+}
+
+.text h2 {
+	color: #823919;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.text h1 {
+	color: #823919;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0;
+	font-family: Arial;
+}
+
+.sejarah p {
+	margin: 0;
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: monospace;
+	z-index: 1;
+	text-align: center;
+}
+
+.sejarah h3 {
+	font-family: Arial;
+	text-align: center;
+	color: #823919;
+}
+
+.organisasi {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.pegawai {
+	text-align: center;
+	margin: 5px;
+	flex: 1;
+	max-width: 200px;
+}
+
+.organisasi img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.organisasi h2 {
+	margin: 5px 0;
+	color: #823919;
+}
+
+
+
+@media (max-width: 600px) {
+	.organisasi {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+footer {
+	background-image: linear-gradient(to bottom right, white, #c8a37b, #faf8ec);
+	color: #823919;
+	text-align: center;
+	padding: 10px;
+
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	margin: 5px;
+}
