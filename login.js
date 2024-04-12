@@ -8,7 +8,7 @@ mongoose.connect("mongodb://localhost:27017/")
 })
 // const username = document.getElementById("username");
 // const password = document.getElementById("password");
-const app=require('./app');
+//const app=require('./app');
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 4000;
