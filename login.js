@@ -14,7 +14,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 4000;
 app.get('/', (req, res) => {
-  res.type('html').send(html));
+  res.type('html').send(html);
 })
 
 app.listen(port, () => {
